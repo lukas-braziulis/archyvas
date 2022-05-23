@@ -1,0 +1,25 @@
+h1::after {
+  content: " cia yra after ";
+  color: red;
+}
+
+h1::before {
+  content: " cia yra before ";
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+/* li:not(:first-child)::before {
+  content: " // ";
+} */
+
+li + li:before {
+  content: " // ";
+}

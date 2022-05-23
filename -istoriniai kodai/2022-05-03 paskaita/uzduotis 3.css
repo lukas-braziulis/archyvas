@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.fex-container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+}
+
+.paragraph {
+  text-align: center;
+  margin-top: 3cm;
+  width: 70%;
+}
+
+.section2 {
+  border: 1px solid black;
+  width: 30%;
+}
+
+.section3 {
+  width: 50%;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.image {
+  width: 100%;
+}
+
+/* 3 blokas: turės du mažesnius blokus, kurie (desktop versijoje) (pliusas: blokai eina vienoje eilutėje, kairėje pusėje bus tekstas, o dešinėje pusėje bus video iš Youtube, pvz., kaip čia). 
+
+Puslapio footer dalyje bus randami du blokai, kurie eis vienas po kitu. Pirmame (viršutiniame) bloke bus navigacijos meniu (pliusas: jo elementai centruoti, vienoje eilutėje). Antrame tekstas “All rights reserved” (pliusas: tekstas centruotas). */

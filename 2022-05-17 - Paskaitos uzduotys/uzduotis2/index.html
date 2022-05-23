@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uzduotis 2</title>
+  </head>
+  <body>
+    <form
+      action="https://formspree.io/f/xvoldlzn"
+      method="POST"
+      target="_blank"
+    >
+      <h2>Payment Form</h2>
+      <p>Required field are followed by *.</p>
+      <br />
+      <h2>Contact Information</h2>
+      <fieldset>
+        <legend>Title</legend>
+        <input type="radio" name="gender" id="genderMister" value="mister" />
+        <label for="genderMister">Mister</label><br />
+        <input type="radio" name="gender" id="genderMiss" value="miss" />
+        <label for="genderMiss">Miss</label>
+      </fieldset>
+      <br />
+      <label for="nameInput">Name: *</label>
+      <input name="name" type="text" id="nameInput" required />
+      <br />
+      <label for="emailInput">Email: *</label>
+      <input name="email" type="email" id="emailInput" required />
+      <br />
+      <label for="passwordInput">Password: *</label>
+      <input name="password" type="password" id="nameInput" required />
+      <br />
+      <h2>Payment Information</h2>
+      <label for="cardTypeSelect">Card Type:</label>
+      <select name="cardType" id="cardTypeSelect">
+        <option value="visa">Visa</option>
+        <option value="mastercard">MasterCard</option>
+        <option value="maestro">Maestro</option>
+      </select>
+      <br />
+      <label for="cardNumberInput">Card Number: *</label>
+      <input
+        type="text"
+        name="cardNumber"
+        id="cardNumberInput"
+        minlength="16"
+        maxlength="16"
+        required
+      />
+      <br />
+      <label for="expDateInput">Expiration date: *</label>
+      <input name="expirationDate" type="date" id="expDateInput" required />
+      <br /><br />
+      <button type="submit">Validate the payment</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uzduotis 1</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form action="/submit" method="POST" target="_blank" autocomplete="on">
+      <h1>Create an Account</h1>
+      <input type="hidden" value="1234" />
+      <label for="emailInput">Email:</label><br />
+      <input type="email" id="emailInput" autofocus required />
+      <br /><br />
+      <label for="passwordInput">Password:</label><br />
+      <input type="password" id="passwordInput" required min="8" max="22" />
+      <br /><br />
+      <label for="ageInput">Age:</label><br />
+      <select required name="" id="ageInput">
+        <option value="18">18</option>
+        <option value="25">25</option>
+        <option value="60">60</option>
+        <option value="75">75</option>
+      </select>
+      <br /><br />
+      <label for="aboutInput">Tell us a little about yourself</label><br />
+      <textarea
+        name=""
+        id="aboutInput"
+        cols="30"
+        rows="5"
+        maxlength="200"
+      ></textarea
+      ><br />
+      <br />
+      <input type="checkbox" id="agreeInput" required />
+      <label for="agreeInput"
+        >I agree to the
+        <a target="_blank" href="https://www.google.com/"
+          >terms of sercice</a
+        ></label
+      ><br /><br />
+      <input type="submit" value="Submit" required />
+    </form>
+  </body>
+</html>

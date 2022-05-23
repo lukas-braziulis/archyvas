@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uzduotis 3</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Contact Us!</h1>
+      <form action="https://formspree.io/f/xvoldlzn" method="post">
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" name="name" placeholder="Lukas" />
+
+        <label for="emailInput">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="emailInput"
+          placeholder="name@email.lt"
+        />
+
+        <label for="refNumber"></label>Reference Number:
+        <input
+          type="number"
+          name="refNumber"
+          id="refNumber"
+          placeholder="12213"
+        />
+
+        <label for="msgTextArea"></label>
+        <textarea
+          name="msgTextArea"
+          id="msgTextArea"
+          cols="30"
+          rows="2"
+          placeholder="Your message goes here ..."
+        ></textarea>
+        <br />
+        <input class="button" type="submit" value="Send !" />
+      </form>
+    </main>
+  </body>
+</html>

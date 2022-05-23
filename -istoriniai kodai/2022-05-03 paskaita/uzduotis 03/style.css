@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.logo {
+  margin-right: auto;
+  padding-left: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.centras {
+  align-self: center;
+}
+
+.centravimas {
+  justify-content: center;
+  align-items: center;
+}
+.paragrafas {
+  text-align: center;
+  width: 70%;
+}
+
+.section1 {
+  margin-top: 3cm;
+}
+.section2 {
+  border: 1px solid;
+  width: 33%;
+  border: 1px solid;
+}
+
+.image {
+  width: 70%;
+}
+
+.section3 {
+  width: 50%;
+  border: 1px solid;
+  height: 300px;
+}

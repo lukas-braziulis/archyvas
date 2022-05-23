@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forma</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <p>All fields are required unless marked as "optional".</p>
+
+    <label for="readonly"> Are you read only?</label> <br />
+    <input id="readonly" readonly type="text" value="Yep, I'm Read Only" />
+    <br />
+    <label for="name">Name</label> <br />
+    <input required type="text" id="name/" />
+    <br />
+    <label for="email">Email (optional)</label> <br />
+    <input type="email" id="email" />
+    <br />
+    <label for="age">Age</label>
+    <input type="number" min="18" max="65" />
+    <br />
+    <label for="comments">Comments</label> <br />
+    <input required type="text" class="comments" />
+    <br />
+    <input type="checkbox" id="checkbox" />
+    <label for="checkbox">I agree with terms and conditions</label>
+    <br />
+    <input type="button" id="send-button" value="Send Comments" />
+  </body>
+</html>

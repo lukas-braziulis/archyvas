@@ -1,0 +1,86 @@
+body {
+  background-color: #eee;
+}
+
+header {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+header img {
+  height: 4rem;
+}
+
+header a {
+  padding: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.width-max {
+  width: 100%;
+}
+
+.container {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.div-image {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.chicken-pic {
+  background-image: url(https://www.julieseatsandtreats.com/wp-content/uploads/2021/08/Baked-Chicken-Breasts-Square.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.milk-pic {
+  background-image: url(https://pienozvaigzdes.lt/lt/1090-large_default/dvaro-pienas-25-riebumo-1l.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.varske-pic {
+  background-image: url(https://pienozvaigzdes.lt/lt/56-large_default/grudeta-grudeta-varske-naturali-200g.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.no-top-margin {
+  margin-top: 0px;
+}
+.no-bott-margin {
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  color: #666;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}

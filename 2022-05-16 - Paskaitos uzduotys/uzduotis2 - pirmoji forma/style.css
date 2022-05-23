@@ -1,0 +1,41 @@
+input:read-only {
+  background-color: grey;
+}
+
+input:in-range {
+  border: 5px solid green;
+}
+
+input:out-of-range {
+  border: 5px solid red;
+}
+
+input[type="button"] {
+  background-color: green;
+  color: white;
+}
+
+input[type="button"]:hover {
+  background-color: darkgreen;
+}
+
+input[type="checkbox"]:checked + label {
+  color: blue;
+}
+
+input:valid {
+  border: 5px solid green;
+}
+
+input:invalid {
+  border: 5px solid red;
+}
+
+input:required {
+  border-left: 0.5rem solid blue;
+}
+
+.comments {
+  height: 100px;
+  width: 200px;
+}
