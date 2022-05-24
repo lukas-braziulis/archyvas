@@ -1,0 +1,51 @@
+.iki-logo {
+  max-width: 50px;
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+  width: 80%;
+  padding-left: 10%;
+}
+
+div a {
+  padding-right: 15px;
+  color: grey;
+}
+
+main {
+  width: 80%;
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 3px;
+}
+
+section {
+  width: 80%;
+  display: block;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+section p img {
+  width: 40%;
+  float: left;
+  padding: 5px;
+  max-width: 300px;
+}
+
+.footer-text {
+  text-align: center;
+}
