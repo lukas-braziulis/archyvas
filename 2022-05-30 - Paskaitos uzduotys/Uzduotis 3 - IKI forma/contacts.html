@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2022-05-24 - Uzduotis 2 - IKI psl</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="iki-logo"
+        src="https://www.sekasoft.com/wp-content/uploads/2018/07/iki-1.png"
+        alt="IKI"
+      />
+      <div>
+        <a href="index.html">Apie Mus</a> <a href="contacts.html">Susisiek</a>
+      </div>
+    </header>
+    <main id="contact">
+      <section>
+        <h2>Susiekite su mūsų <span class="green-text">komanda</span></h2>
+        <form action="https://formspree.io/f/xvoldlzn" method="post">
+          <label for="nameInput">Vardas:</label><br />
+          <input
+            type="text"
+            id="nameInput"
+            name="name"
+            placeholder="Lukas"
+            required
+          />
+          <br />
+          <label for="emailInput">El. paštas:</label><br />
+          <input
+            type="email"
+            id="emailInput"
+            name="email"
+            placeholder="email@email.lt"
+            required
+          />
+          <br />
+          <label for="cardNoInput">Iki kortelės numeris:</label><br />
+          <input
+            type="text"
+            pattern="\d*"
+            id="cardNoInput"
+            name="cardNo"
+            placeholder="12345678"
+            minlength="8"
+            maxlength="8"
+          />
+          <!-- šis pattern reiškia, kad galima dėti bet kokius skaičius -->
+          <br />
+          <label for="messageArea">Žinutė:</label><br />
+          <textarea
+            for="messageArea"
+            id="messageArea"
+            name="message"
+            placeholder="Jūsų laškas mums..."
+            cols="30"
+            rows="2"
+            required
+          ></textarea>
+          <br />
+          <input class="button" type="submit" value="Siųsti" />
+        </form>
+
+        <table>
+          <tr>
+            <th>Vardas</th>
+            <th>Pareigos</th>
+            <th>Telefonas</th>
+          </tr>
+          <tr>
+            <td class="green-text">Vidmantas</td>
+            <td>Direktorius</td>
+            <td>+37067574401</td>
+          </tr>
+          <tr>
+            <td class="green-text">Nijolė</td>
+            <td>Administratorė</td>
+            <td>+37067574401</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p class="footer-text">
+        Copyrights &copy; Lukas Braziulis 2022. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

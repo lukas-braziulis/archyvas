@@ -1,0 +1,79 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+h2 {
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.section-1 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-basic {
+  margin-top: 5px;
+  margin-right: 20px;
+  border: 3px grey solid;
+  display: flex;
+  flex-flow: column;
+  flex: 1 0 280px;
+}
+
+.section-prem {
+  margin-top: 5px;
+  margin-right: 20px;
+  border: 3px rgb(155, 203, 248) solid;
+  display: flex;
+  flex-flow: column;
+  flex: 1 0 280px;
+}
+
+.section-plat {
+  margin-top: 5px;
+  border: 3px grey solid;
+  display: flex;
+  flex-flow: column;
+  flex: 1 0 280px;
+}
+
+.section-basic h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.section-prem h2 {
+  background-color: rgb(27, 144, 253);
+  color: white;
+  text-align: center;
+}
+
+.section-plat h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+button {
+  background-color: rgba(14, 168, 14, 0.822);
+  color: white;
+  border: none;
+  padding: 2px 5px 2px 5px;
+}
+
+.button-section {
+  align-items: flex-end;
+  border-top: 1px grey solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: auto;
+}
+
+.price-tag {
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
