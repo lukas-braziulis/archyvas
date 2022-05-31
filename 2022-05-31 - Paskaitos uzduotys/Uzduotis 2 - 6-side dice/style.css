@@ -1,0 +1,82 @@
+.border {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.dot {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.dot-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice-2 {
+  justify-content: space-between;
+}
+
+.dot-2-1 {
+  align-self: flex-end;
+}
+
+.dice-3 {
+  justify-content: space-between;
+}
+
+.dice-3-1 {
+  align-self: flex-end;
+}
+
+.dice-3-2 {
+  align-self: center;
+}
+
+.dice-4 {
+  justify-content: space-between;
+}
+
+.dice-4-1 {
+  align-self: flex-end;
+  justify-self: flex-start;
+}
+
+.dice-4-2 {
+  justify-self: flex-start;
+}
+
+.dice-4-3 {
+  align-self: flex-end;
+  justify-self: flex-start;
+}
+
+.dice-4-4 {
+  align-self: flex-end;
+  justify-self: flex-start;
+}
+
+.dice-4-a {
+  justify-content: space-between;
+}
+
+.dice-5 {
+  justify-self: center;
+  align-self: center;
+}
