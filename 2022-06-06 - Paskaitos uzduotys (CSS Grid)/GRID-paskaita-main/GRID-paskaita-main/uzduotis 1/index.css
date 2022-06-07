@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-item {
+  margin: 10px;
+  background-color: orange;
+  flex-grow: 1;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}

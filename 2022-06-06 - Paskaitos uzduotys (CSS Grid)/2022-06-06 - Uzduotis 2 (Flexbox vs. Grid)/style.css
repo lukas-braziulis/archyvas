@@ -1,0 +1,25 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-item {
+  background-color: orange;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.height-100 {
+  height: 100px;
+}

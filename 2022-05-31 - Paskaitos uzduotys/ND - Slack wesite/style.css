@@ -1,0 +1,81 @@
+body {
+  background-color: #f6efe8;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.logo img,
+.search-icon {
+  height: 2rem;
+  padding: 15px;
+  padding-right: 30px;
+  padding-left: 0px;
+}
+
+.header-nav a {
+  padding-right: 5px;
+}
+
+.talk-to-sales {
+  height: 2.5rem;
+  background-color: transparent;
+  text-transform: capitalize;
+  margin-left: 30px;
+  color: purple;
+  border: 1px solid purple;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.talk-to-sales:hover {
+  border: 2px solid purple;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+.try-for-free {
+  height: 2.5rem;
+  background-color: purple;
+  text-transform: capitalize;
+  margin-left: 15px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.try-for-free:hover {
+  background-color: rgb(66, 4, 66);
+}
