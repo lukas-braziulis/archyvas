@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(224, 224, 224);
+  color: #444;
+}
+
+header {
+  background-color: white;
+  box-shadow: 1px 1px 2px grey;
+  text-align: center;
+}
+
+header img {
+  height: 10rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  display: block;
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 4px grey;
+}
+
+main h1 {
+  padding: 0.5rem;
+}
+
+main table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+main table th,
+main table td {
+  font-size: 2rem;
+  border-bottom: 1px solid grey;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  header nav a {
+    display: inline;
+    padding-left: 0.5rem;
+  }
+
+  main {
+    width: 80vw;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,61 @@
+header {
+  width: 100vw;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 5px;
+  /* text-align: center; */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background-color: green;
+  height: 150px;
+}
+
+.grid-container {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 200px 200px;
+}
+
+.grid-item-01 {
+  background-color: blue;
+}
+
+.grid-item-02 {
+  background-color: purple;
+}
+
+.grid-item-03 {
+  background-color: orange;
+}
+
+.grid-item-04 {
+  background-color: yellow;
+}
+
+@media screen and (min-width: 700px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
