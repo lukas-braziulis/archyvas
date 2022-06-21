@@ -1,0 +1,31 @@
+img {
+  height: 5rem;
+  display: block;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+body {
+  background-color: rgb(156, 134, 105);
+  padding: 5rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  padding: 2rem;
+  background-color: white;
+  width: 55%;
+  border-radius: 4px;
+}
+
+.button-primary {
+  background-color: red;
+}
+
+footer {
+  text-align: center;
+}
