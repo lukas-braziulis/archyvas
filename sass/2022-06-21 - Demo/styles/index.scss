@@ -1,0 +1,48 @@
+@import "./variables";
+
+@import "./navigation";
+
+@mixin flexCenter($flexDirection, $justify) {
+  display: flex;
+  flex-direction: $flexDirection;
+  justify-content: $justify;
+  align-items: center;
+}
+
+nav {
+  color: $buttonColor;
+  height: 50vh;
+
+  div {
+    background-color: red;
+  }
+  &:hover {
+    color: black;
+  }
+
+  .someClass {
+    font-size: 30px;
+  }
+}
+
+nav {
+  @include flexCenter(row, flex-start);
+}
+
+.section {
+  @include flexCenter(column, center);
+}
+
+.buttonFont {
+  color: yellow;
+}
+
+.primaryButton {
+  @extend .buttonFont;
+  font-size: 50px;
+  //   color: red;
+}
+
+section {
+  padding: 10px + $standardPadding;
+}

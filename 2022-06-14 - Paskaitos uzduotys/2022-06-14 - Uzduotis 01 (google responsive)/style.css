@@ -57,6 +57,14 @@ h2 {
   display: none;
 }
 
+.disappear p {
+  display: none;
+}
+
+.disappear:hover p {
+  display: inline;
+}
+
 .icon-box {
   width: 3rem;
   height: 3rem;
@@ -71,6 +79,7 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: auto;
 }
 
 .icon-grid {

@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "_variables.scss",
+    "index.scss"
+  ],
+  "names": [],
+  "mappings": "AAAQ;ACOR;AAAA;AAAA;EAGE;EACA,aDLW;ECMX,ODVU;;;ACaZ;EAZE;EACA;EAaA;;;AAGF;EAjBE;EACA;EAkBA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EA3BF;EACA;EA4BE;;AAEA;EA/BF;EACA;EAgCI;EACA;EACA,kBDjCY;ECkCZ;EACA;;AAGF;EACE,ODxCQ;ECyCR;EACA;EACA;;AAGF;EACE,ODhDW;;ACmDb;EACE",
+  "file": "output.css"
+}

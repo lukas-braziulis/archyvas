@@ -1,0 +1,45 @@
+nav {
+  background-color: blue;
+}
+
+nav {
+  color: red;
+  height: 50vh;
+}
+nav div {
+  background-color: red;
+}
+nav:hover {
+  color: black;
+}
+nav .someClass {
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonFont, .primaryButton {
+  color: yellow;
+}
+
+.primaryButton {
+  font-size: 50px;
+}
+
+section {
+  padding: 60px;
+}
+
+/*# sourceMappingURL=output.css.map */
