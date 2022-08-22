@@ -1,0 +1,50 @@
+@keyframes size {
+    0% {
+        color: red;
+        background-color: blueviolet;
+    }
+    25% {
+        color: black;
+    }
+    50% {
+        color: green;
+        font-size: 50px;
+    }
+    75% {
+        color: pink;
+    }
+    100% {
+        color: red;
+        border-radius: 50%;
+    }
+}
+
+.h1-stuff {
+    color: blue;
+    font-size: 50px;
+    background-color: aqua;
+    animation: size 4s infinite;
+    animation-direction: alternate; 
+    /* infinite - galima padaryti pastovu loop'a */ 
+
+}
+
+/* .h1-stuff {
+    color: blue;
+    font-size: 50px;
+    background-color: aqua;
+    transition: color 3s;
+} */
+
+/* .h1-stuff:hover {
+    font-size: 100px;
+} */
+
+.red-text {
+    color: red;
+}
+
+.large-text {
+    font-size: 100px;
+}
+
