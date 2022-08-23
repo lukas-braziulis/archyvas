@@ -17,6 +17,10 @@ const cars = ["BMW", "MCB", "VWG", "Toyota", "AUDI"];
 
 console.log(cars.reduce((acc, element) => element.length === 3 ? acc + 1 : acc, 0)); // Tai čia kai darai Reduce ant string'ų tai reikia kažkaip jiems suteikti reikšmes. Kaip kad šiuo atveju buvo, kad patikrino ar iš 3 raidžių susideda tai tada dave 1. antraip butu 0.
 
+// alternatyva (ilgesnis variantas):
+console.log(cars.reduce((acc, element) => {
+    return element.length === 3 ? acc +1 : acc;
+}, 0));
 
 // ***** Trecia uzduotis *****
 // Sukurk array su daug skaičių. Grąžink didžiausią skaičių iš array naudojant reduce.
