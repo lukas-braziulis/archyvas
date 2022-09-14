@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./add.js" type="module"></script>
+  </head>
+  <body>
+    <div id="header-section">
+      <h1>Add your property for sale</h1>
+      <h4>Yes, you can sell where you live and get cash!</h4>
+    </div>
+    <form>
+      <h2>Add Property</h2>
+      <label for="property-img">Img</label><br />
+      <input
+        type="text"
+        id="property-img"
+        name="property-img"
+        placeholder="www.google.com/img.jpg"
+      /><br />
+      <label for="property-price">Price, EUR</label><br />
+      <input
+        type="number"
+        id="property-price"
+        name="property-price"
+        placeholder="50000"
+      /><br />
+      <label for="property-description">Description</label><br />
+      <textarea
+        name="property-description"
+        id="property-description"
+        cols="30"
+        rows="10"
+        placeholder="anything you would like to say?"
+      ></textarea>
+      <br />
+      <label for="property-city">City</label><br />
+      <select name="cars" id="property-city">
+        <option value="Vilnius">Vilnius</option>
+        <option value="Kaunas">Kaunas</option>
+        <option value="Klaipeda">Klaipeda</option>
+      </select>
+      <br />
+      <br />
+      <button id="submit-button">Add property</button>
+    </form>
+    <h4>
+      <a href="./index.html"> Home Page</a>
+    </h4>
+  </body>
+</html>

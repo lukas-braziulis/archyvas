@@ -1,0 +1,69 @@
+body {
+  padding-top: 2rem;
+}
+
+img {
+  width: 15rem;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#header-section {
+  background-color: turquoise;
+  padding: 1rem 1rem 1rem 0.5rem;
+}
+
+.property-button {
+  background-color: transparent;
+  padding: 5px 12px 5px 12px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.property-button:focus {
+  border: 1px solid turquoise;
+  color: turquoise;
+}
+
+.add-property {
+  background-color: turquoise;
+  color: white;
+  padding: 5px 12px 5px 12px;
+  border-radius: 5px;
+  border: 1px solid turquoise;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-bottom: 2rem;
+}
+
+#property-cards-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.property-card {
+  /* display: none; */
+  flex-direction: column;
+}
+
+.property-card span {
+  padding-top: 10px;
+}
+
+.show {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
